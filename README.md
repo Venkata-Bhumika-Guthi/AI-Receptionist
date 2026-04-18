@@ -14,7 +14,7 @@ A minimal **AI receptionist / appointment booking** backend.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - `/webhooks/twilio/voice/` – Twilio hits this when a call comes in; greets and starts `<Gather>` (speech)
 - `/webhooks/twilio/gather-action/` – Twilio posts transcription results here; continues the dialog or books
@@ -24,7 +24,7 @@ A minimal **AI receptionist / appointment booking** backend.
 
 ---
 
-## 🧩 Running Locally (Docker)
+## Running Locally (Docker)
 
 **Requirements:** Docker Desktop, PowerShell/Terminal.
 
@@ -54,7 +54,7 @@ Visit:
 
 ---
 
-## 🌐 Exposing Locally to Twilio (Dev)
+## Exposing Locally to Twilio (Dev)
 
 Twilio needs to reach your local server. Use a tunnel:
 
