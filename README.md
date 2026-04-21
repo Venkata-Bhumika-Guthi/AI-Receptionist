@@ -97,7 +97,7 @@ docker compose logs -f worker
 ---
 
 
-## 📧 Email Notifications
+## Email Notifications
 
 **Dev (default):** emails print to web logs (console backend).
 
@@ -128,7 +128,7 @@ docker compose exec web python manage.py shell -c "from django.core.mail import 
 
 ---
 
-## 📱 SMS Confirmations (Optional)
+## SMS Confirmations (Optional)
 
 Set Twilio creds in `.env`:
 
@@ -147,7 +147,7 @@ docker compose up -d --build
 
 ---
 
-## 🔗 Endpoints Summary
+## Endpoints Summary
 
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
